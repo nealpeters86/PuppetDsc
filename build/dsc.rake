@@ -15,7 +15,7 @@ namespace :dsc do
   default_types_path         = "#{default_dsc_module_path}/lib/puppet/type"
   default_type_specs_path    = "#{default_dsc_module_path}/spec/unit/puppet/type"
 
-  dsc_repo                   = 'https://github.com/PowerShell/DscResources.git'
+  dsc_repo                   = 'https://github.com/nealpeters86/DscNeal.git'
   dsc_resources_file         = "#{default_dsc_module_path}/dsc_resource_release_tags.yml"
 
   desc "Import and build all"
